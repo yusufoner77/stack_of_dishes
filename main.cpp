@@ -68,6 +68,10 @@ class DishStack {
     int size() {
       return index + 1;
     }
+
+    void clear() {
+      index = -1;
+    }
 };
 
 int main() {
