@@ -69,10 +69,16 @@ class DishStack {
       return index + 1;
     }
 
+    // One Credit Add-on: Clear Method
     void clear() {
       index = -1;
     }
 };
+
+// 2 Credit Add-on: Real World Example of a Stack
+/*
+
+*/
 
 int main() {
   DishStack stack;
