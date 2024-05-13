@@ -77,7 +77,15 @@ class DishStack {
 
 // 2 Credit Add-on: Real World Example of a Stack
 /*
+A real world example of a stack are the back and forward buttons on a web browser. This is accomplished by maintaining two separate stacks. The "back" stack is used to track links
+to previously visited pages, and the "forward" stack tracks links to the pages we've left but may want to revisit.
 
+As we navigate through pages on the web, if we click on a link we will be pushing our current page to the top of the "back" stack before going to the next page.
+
+Pressing the back button will store our current page at the top of the forward stack, and the top page from the back stack is popped off and loaded in as the new current window.
+Pressing the forward button will push our current page to the top of the back stack, and the top page from the forward stack is popped off and loaded in as the new current window.
+
+Source: https://www.enjoyalgorithms.com/blog/application-of-stack-data-structure-in-programming
 */
 
 int main() {
